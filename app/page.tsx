@@ -24,13 +24,13 @@ export default function Home() {
         </p>
 
         {/* Tombol CV */}
-        <a
+        <link
           href="/about"
           className="inline-block mt-4 px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
           text-[#38A2C9] hover:bg-[#38A2C9]/50 hover:text-white transition"
         >
           View my CV
-        </a>
+        </link>
       </div>
 
       <section className="text-center py-20 px-20 mt-40 bg-gradient-to-r from-[#0F1A20] to-[#1A2C38] rounded-2xl shadow-lg shadow-md hover:shadow-[#38A2C9]/40 hover:-translate-y-1 transition duration-300">
@@ -43,14 +43,14 @@ export default function Home() {
   
   <div className="w-24 h-1 bg-gradient-to-r from-[#38A2C9] to-[#78C6E2] mx-auto mb-8 "></div>
 
-  <a
+  <link
     href="/about"
     className="inline-block px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
     text-[#38A2C9] hover:bg-[#38A2C9]/80 hover:text-white 
     shadow-md hover:shadow-[#38A2C9]/50 transition"
   >
     Learn More About Me
-  </a>
+  </link>
 </section>
 
     </main>

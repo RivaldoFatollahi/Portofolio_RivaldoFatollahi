@@ -18,9 +18,9 @@ export default function Footer() {
     <div>
       <h3 className="text-white font-semibold mb-4">Menu</h3>
       <ul className="space-y-2">
-        <li><a href="/" className="hover:text-[#38A2C9] transition">Home</a></li>
-        <li><a href="/about" className="hover:text-[#38A2C9] transition">About</a></li>
-        <li><a href="/projects" className="hover:text-[#38A2C9] transition">Projects</a></li>
+        <li><link href="/" className="hover:text-[#38A2C9] transition">Home</link></li>
+        <li><link href="/about" className="hover:text-[#38A2C9] transition">About</link></li>
+        <li><link href="/projects" className="hover:text-[#38A2C9] transition">Projects</link></li>
       </ul>
     </div>
 
@@ -28,9 +28,9 @@ export default function Footer() {
     <div>
       <h3 className="text-white font-semibold mb-4">Socials</h3>
       <ul className="space-y-2">
-        <li><a href="https://github.com/" target="_blank" className="hover:text-[#38A2C9] transition">GitHub</a></li>
-        <li><a href="https://linkedin.com/" target="_blank" className="hover:text-[#38A2C9] transition">LinkedIn</a></li>
-        <li><a href="mailto:your@email.com" className="hover:text-[#38A2C9] transition">Email</a></li>
+        <li><link href="https://github.com/" className="hover:text-[#38A2C9] transition">GitHub</link></li>
+        <li><link href="https://linkedin.com/" className="hover:text-[#38A2C9] transition">LinkedIn</link></li>
+        <li><link href="mailto:rivaldofatollahi234@gmail.com" className="hover:text-[#38A2C9] transition">Email</link></li>
       </ul>
     </div>
   </div>

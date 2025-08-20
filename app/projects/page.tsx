@@ -54,14 +54,14 @@ export default function Projects() {
         ))}
       </div>
       <div className="flex justify-center mt-12">
-        <a
+        <link
           href="/about"
           className="inline-block px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
           text-[#38A2C9] hover:bg-[#38A2C9]/80 hover:text-white 
           shadow-md hover:shadow-[#38A2C9]/50 transition text-center"
         >
           See More
-        </a>
+        </link>
       </div>
     </main>
   );
