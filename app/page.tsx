@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,14 +24,8 @@ export default function Home() {
           3D Visualization. I enjoy solving problems, learning new technologies, and creating user-centered solutions.
         </p>
 
-        {/* Tombol CV */}
-        <link
-          href="/about"
-          className="inline-block mt-4 px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
-          text-[#38A2C9] hover:bg-[#38A2C9]/50 hover:text-white transition"
-        >
-          View my CV
-        </link>
+        <Link href="/about" className="inline-block mt-4 px-6 py-3 border-2 border-[#38A2C9] rounded-lg text-[#38A2C9] hover:bg-[#38A2C9]/50 hover:text-white transition">
+        View my CV </Link>
       </div>
 
       <section className="text-center py-20 px-20 mt-40 bg-gradient-to-r from-[#0F1A20] to-[#1A2C38] rounded-2xl shadow-lg shadow-md hover:shadow-[#38A2C9]/40 hover:-translate-y-1 transition duration-300">
@@ -43,14 +38,14 @@ export default function Home() {
   
   <div className="w-24 h-1 bg-gradient-to-r from-[#38A2C9] to-[#78C6E2] mx-auto mb-8 "></div>
 
-  <link
+  <Link
     href="/about"
     className="inline-block px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
     text-[#38A2C9] hover:bg-[#38A2C9]/80 hover:text-white 
     shadow-md hover:shadow-[#38A2C9]/50 transition"
   >
     Learn More About Me
-  </link>
+  </Link>
 </section>
 
     </main>

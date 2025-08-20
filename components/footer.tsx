@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
      <footer className="bg-[#0F1A20] text-gray-400 px-6 py-12">
@@ -18,9 +20,9 @@ export default function Footer() {
     <div>
       <h3 className="text-white font-semibold mb-4">Menu</h3>
       <ul className="space-y-2">
-        <li><link href="/" className="hover:text-[#38A2C9] transition">Home</link></li>
-        <li><link href="/about" className="hover:text-[#38A2C9] transition">About</link></li>
-        <li><link href="/projects" className="hover:text-[#38A2C9] transition">Projects</link></li>
+        <li><Link href="/" className="hover:text-[#38A2C9] transition">Home</Link></li>
+        <li><Link href="/about" className="hover:text-[#38A2C9] transition">About</Link></li>
+        <li><Link href="/projects" className="hover:text-[#38A2C9] transition">Projects</Link></li>
       </ul>
     </div>
 
@@ -28,9 +30,9 @@ export default function Footer() {
     <div>
       <h3 className="text-white font-semibold mb-4">Socials</h3>
       <ul className="space-y-2">
-        <li><link href="https://github.com/" className="hover:text-[#38A2C9] transition">GitHub</link></li>
-        <li><link href="https://linkedin.com/" className="hover:text-[#38A2C9] transition">LinkedIn</link></li>
-        <li><link href="mailto:rivaldofatollahi234@gmail.com" className="hover:text-[#38A2C9] transition">Email</link></li>
+        <li><Link href="https://github.com/" className="hover:text-[#38A2C9] transition">GitHub</Link></li>
+        <li><Link href="https://linkedin.com/" className="hover:text-[#38A2C9] transition">LinkedIn</Link></li>
+        <li><Link href="mailto:rivaldofatollahi234@gmail.com" className="hover:text-[#38A2C9] transition">Email</Link></li>
       </ul>
     </div>
   </div>

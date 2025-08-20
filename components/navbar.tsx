@@ -15,9 +15,9 @@ export default function Navbar() {
     <nav className="bg-[#0F1A20] w-full top-0 z-50">
       <div className="flex items-center justify-between py-4 px-6">
         <div>
-          <link href="/">
+          <Link href="/">
             <img src="/image/logo.png" alt="" width={40} />
-          </link>
+          </Link>
         </div>
         <div className="flex gap-x-8">
           {navItems.map((item) => (

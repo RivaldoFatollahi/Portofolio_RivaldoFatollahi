@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
   return (
      <main className="min-h-screen bg-[#0F1A20] text-white px-6 py-16">

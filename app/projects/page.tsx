@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Projects() {
     const projects = [
@@ -10,7 +12,7 @@ export default function Projects() {
     {
       title: "City Information Website",
       desc: "Informational website about Depok built with modern UI/UX design principles.",
-      img: "/image/depok-info.png"
+      img: "/image/depok-info.png" 
     },
     {
       title: "Android Auth App",
@@ -54,14 +56,14 @@ export default function Projects() {
         ))}
       </div>
       <div className="flex justify-center mt-12">
-        <link
+        <Link
           href="/about"
           className="inline-block px-6 py-3 border-2 border-[#38A2C9] rounded-lg 
           text-[#38A2C9] hover:bg-[#38A2C9]/80 hover:text-white 
           shadow-md hover:shadow-[#38A2C9]/50 transition text-center"
         >
           See More
-        </link>
+        </Link>
       </div>
     </main>
   );
